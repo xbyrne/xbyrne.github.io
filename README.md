@@ -1,2 +1,0 @@
-# xbyrne.github.io
-wobsite
