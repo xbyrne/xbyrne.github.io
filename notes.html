@@ -45,9 +45,9 @@
 		   	<nav id="main-nav-wrap">
 					<ul class="main-navigation">
 						<li><a href="index.html" title=""><i class="fa fa-home fa-2x"></i></a></li>
-						<li><a href="notes.html" title=""><i class="fa fa-folder-open-o fa-2x"></i></a></li>
-						<li><a class="smoothscroll" title=""><i class="fa fa-comment-o fa-2x"></i></a></li>
-						<li class="current"><a href="#intro" title=""><i class="fa fa-child fa-2x"></i></a></li>					
+						<li class="current"><a href="#intro" title=""><i class="fa fa-folder-open-o fa-2x"></i></a></li>
+						<li><a href="talks.html" title=""><i class="fa fa-comment-o fa-2x"></i></a></li>
+						<li><a href="cv.html" title=""><i class="fa fa-child fa-2x"></i></a></li>					
 						<li><a class="smoothscroll"  href="#contact" title=""><i class="fa fa-edit fa-2x"></i></a></li> 
 					</ul>
 				</nav>    		
@@ -75,7 +75,7 @@
 	   				<span>University of Cambridge</span> 
 	   			</p>
 
-	   			<a class="button stroke smoothscroll" href="#about" title="">My CV</a>
+	   			<a class="button stroke smoothscroll" href="#repo" title="">My Notes</a>
 
 	   		</div>  
    			
@@ -86,27 +86,156 @@
 
    </section> <!-- /intro -->
 
-   <!-- about section
+   <!-- resume Section
    ================================================== -->
-   <section id="about">  
+	<section id="repo" class="grey-section">
 
-   	<div class="row section-intro">
+		<div class="row section-intro">
    		<div class="col-twelve">
 
-   			<h5>CV</h5>
-   			<h1>Here's what I've done so far.</h1>
-			<br>
+   			<h5>Notes</h5>
+   			<h1>Here's some notes I made for Uni.</h1>
 
-   			<embed src="xbyrne_cv.pdf" width="700" height="800" type="application/pdf"> 			
+   			<p class="lead">In my time at Cambridge, I have often felt that the notes we are given could be improved. So I made some of my own.</p>
+			<p> The notes are written by and for me, and so they’re quite idiosyncratic, but some people have claimed they’re helpful. Whether that says more about me, 
+				those people, or Cambridge I don’t know.
+				For me, <a href="https://en.wikipedia.org/wiki/Grapheme%E2%80%93color_synesthesia" style="color:#FF0077" target="_blank">colour helps to recognise variables</a>, so you'll often 
+				find that the notes are jarringly colourful. Also, I generally try to assume the reader knows most of the relevant maths, with the justification 
+				that otherwise the notes would sprawl and I wanted them to be brief, and that they're really supposed to be more about Physics anyway.</p>
 
    		</div>   		
-   	</div> <!-- /section-intro -->
+   	</div> <!-- /section-intro--> 
 
-  
-   </section> <!-- /process-->    
-   
+   	<div class="row resume-timeline">
 
-	
+		<ul id="notestree">
+			<li class="bough"><span class="caret">II Astrophysics</span>
+				<ul class="nested">
+					<li class="notepdf">Principles of Quantum Mechanics
+					
+					</li>
+					<li class="notepdf">Relativity
+					
+					</li>
+					<li class="notepdf">Stellar Dynamics
+					
+					</li>
+					</li class="notepdf">Structure + Evolution of Stars
+					
+					</li>
+				</ul>
+			</li>
+			<li class="bough"><span class="caret">IB Physics</span>
+				<ul class="nested">
+					<li class="branch"><span class="caret">Physics A</span>
+						<ul class="nested">
+							<li class="notepdf">Experimental Methods
+							
+							</li>
+							<li class="notepdf">Optics
+							
+							</li>
+							<li class="notepdf">Quanta
+							
+							</li>
+							<li class="notepdf">Condensed Matter
+							
+							</li>
+						</ul>
+					</li>
+					<li class="branch"><span class="caret">Physics B</span>
+						<ul class="nested">
+							<li class="notepdf">Electromagnetism
+							
+							</li>
+							<li class="notepdf">Classical Dynamics
+							
+							</li>
+							<li class="notepdf">Thermodynamics
+							
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+		</ul>
+			
+   		
+   	</div> <!-- /resume-timeline -->
+   	
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>Education</h2>
+
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+   				<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Master Degree</h3>
+	   					<p>July 2015 - Present</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>University of Life</h4>
+	   					<p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Bachelor Degree</h3>
+	   					<p>July 2014 - June 2015</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>State Design University</h4>
+	   					<p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Bachelor Degree</h3>
+	   					<p>May 2013 - June 2014</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Design College</h4>
+	   					<p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+   			</div> <!-- /timeline-wrap -->   			
+
+   		</div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /resume-timeline -->
+		
+	</section> <!-- /features -->
       <!-- contact
    ================================================== -->
 	<section id="contact">
@@ -231,7 +360,10 @@
 
       	<div class="col-six tab-full">
 	      	<div class="copyright">
-		        	<span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>	         	
+		        	<span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>
+
+
+  
 		         </div>		                  
 	      	</div>
 
