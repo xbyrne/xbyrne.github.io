@@ -1638,7 +1638,7 @@ header .logo a {
 #repo {
 	padding-top: 12rem;
 	padding-bottom: 12rem;
-	background: #313131 url(../images/luna.jpg);
+	background: #313131 url(../images/luna3.jpg);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: 100%;
@@ -2664,14 +2664,26 @@ ul, #notestree {
 
 .bough{
 	font-size:28px;
-	font-family: "poppins-regular", sans-serif;
+	font-family: "poppins-semibold", sans-serif;
 	color:white;
 }
 .branch{
 	font-size:24px;
+	font-family: "poppins-semibold", sans-serif;
+}
+.nested p{
+	font-size:16px;
 	font-family: "poppins-regular", sans-serif;
 }
 .notepdf{
 	font-size:16px;
+	font-family: "poppins-regular", sans-serif;
+}
+.notepdf a{
+	color:white;
+	font-size:20px;
 	font-family: "poppins-semibold", sans-serif;
+}
+.notepdf a:hover{
+	color:#FF0077;
 }
