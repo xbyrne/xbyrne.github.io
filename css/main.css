@@ -1100,7 +1100,7 @@ header .row {
 header .top-bar {
 	display: block;
 	background: #000000;
-	min-width: 78px;
+	min-width: 76px;
 	min-height: 68px;
 	position: absolute;
 	left: 90px;
@@ -1240,6 +1240,7 @@ header .logo a {
 	height: auto;
 	clear: both;
 	display: none;
+	text-align: center;
 }
 .main-navigation > li {
 	display: block;
@@ -1254,7 +1255,6 @@ header .logo a {
 	padding: 12px 0;
 	line-height: 12px;
 	border: none;
-	text-align: center;
 }
 .main-navigation li a:hover {
 	color: #FF0077;
@@ -1815,7 +1815,7 @@ header .logo a {
 	padding-bottom: 12rem;
 }
 #portfolio .folio-item {
-	padding: 0;
+	padding: 3rem;
 	position: relative;
 	overflow: hidden;
 }
