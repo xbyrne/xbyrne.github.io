@@ -82,7 +82,7 @@ body {
  * -------------------------------------------------------------------
  */
 a, a:visited {
-	color: #000000;
+	color: #888888;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
