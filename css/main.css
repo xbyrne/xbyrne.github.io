@@ -126,8 +126,9 @@ h1, .h01 {
 	}
 }
 h2, .h02 {
-	font-size: 2.4rem;
+	font-size: 1.8rem;
 	line-height: 1.25;
+	color: #d1d1d1;
 }
 h3, .h03 {
 	font-size: 2rem;
@@ -524,7 +525,6 @@ select {
 	padding: 1.5rem 0;
 	border: 0;
 	outline: none;
-	vertical-align: middle;
 	color: #313131;
 	font-family: "poppins-regular", sans-serif;
 	font-size: 1.5rem;
@@ -689,7 +689,6 @@ input[type="button"]:focus {
 	border: 3px solid #000000;
 	outline: 0;
 }
-.button.,
 a.button.button-primary,
 button.button-primary,
 input[type="submit"].button-primary,
