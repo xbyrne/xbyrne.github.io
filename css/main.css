@@ -694,8 +694,10 @@ button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
-	background: #1f1f1f;
-	border: 3px solid #1f1f1f;
+	/* background: #1f1f1f; */
+	background-color: transparent;
+	border: 3px solid #ffffff;
+	color: #ffffff
 }
 .button.button-primary:hover,
 a.button.button-primary:hover,
@@ -1026,7 +1028,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	background: #ebebeb;
 }
 .grey-section p.lead {
-	color: #7d7d7d;
+	color: #d1d1d1;
 }
 .section-intro {
 	max-width: 700px;
@@ -1503,6 +1505,7 @@ header .logo a {
 
 #about .section-intro {
 	margin-bottom: 3rem;
+	color: #b1b1b1
 }
 
 .intro-info {
@@ -2205,6 +2208,7 @@ header .logo a {
 	background: #990047;
 	padding-top: 7.2rem;
 	padding-bottom: 6rem;
+	padding-left: 0rem; /*Change this pad to recenter stats*/
 	text-align: center;
 }
 #stats .row {
@@ -2213,6 +2217,7 @@ header .logo a {
 #stats .stat {
 	border-left: 1px solid rgba(255, 255, 255, 0.12);
 	min-height: 17.4rem;
+	width: 300px;
 }
 #stats .stat:first-child {
 	border: none;
