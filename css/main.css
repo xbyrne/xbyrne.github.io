@@ -621,16 +621,12 @@ label > input[type="checkbox"], label > input[type="radio"] {
 
 audio {
 	width: 100%;
-	type: "audio/mpeg";
 }
 
 iframe {
 	width: 560px;
 	height: 315px;
-	title: "YouTube video player";
-	frameborder: 0;
-	allow: "accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
-	allowfullscreen;
+	border: 0;
 }
 
 /**
