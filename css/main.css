@@ -1256,6 +1256,7 @@ header .logo a {
 	clear: both;
 	display: none;
 	text-align: center;
+	font-size: 1.9rem;
 }
 .main-navigation > li {
 	display: block;
@@ -1278,6 +1279,9 @@ header .logo a {
 .main-navigation li.current > a {
 	background: none;
 	color: #FF0077;
+}
+.main-navigation i {
+	font-size: 2.4rem;
 }
 
 /**
