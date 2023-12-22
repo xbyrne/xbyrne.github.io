@@ -153,6 +153,14 @@ h6, .h06 {
 	text-transform: uppercase;
 	letter-spacing: .15rem;
 }
+p.collapsible {
+	font-family: "poppins-regular", serif;
+	font-size: 1.6rem;
+	line-height: 2rem;
+	color: #d1d1d1;
+	text-align: left;
+	padding-top: 2rem;
+}
 p img {
 	margin: 0;
 }
@@ -1238,7 +1246,7 @@ header .logo a {
 /* navigation panel */
 #main-nav-wrap {
 	display: block;
-	width: 170px;
+	width: 175px;
 	font-family: "poppins-medium", sans-serif;
 	font-size: 1.5rem;
 	position: absolute;
@@ -1528,7 +1536,7 @@ header .logo a {
 
 .intro-info {
 	margin-top: 4.2rem;
-	margin-right: -30px;
+	margin-right: -20px;
 	margin-left: -30px;
 }
 .intro-info h3{
@@ -1544,6 +1552,18 @@ header .logo a {
 .intro-info .lead {
 	text-align: left;
 	padding-left: 13rem;
+}
+.intro-info .logo {
+	height: 50px;
+	width: auto;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	border-radius: 0;
+}
+.intro-info .logos {
+	margin-top: 2rem;
+	display: flex;
+	justify-content: center;
 }
 
 .about-content {
