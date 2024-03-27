@@ -27,6 +27,9 @@
 	<script src="js/pace.min.js"></script>
 	<script data-goatcounter="https://xbyrne.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
+		<!-- LaTeX stuff -->
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 		
    <!-- favicons
 	================================================== -->
@@ -108,12 +111,45 @@
    		<div class="col-twelve">
 
    			<h5>Selected Papers</h5>
-   			<h6>OK, there's currently only one.</h6>
+   			<h6>OK, there are currently only two.</h6>
+
+			   <div class="intro-info">
+
+				<h1><em>Quasar Island</em> &mdash; Three new \(z\sim~6\) quasars, including a lensed candidate, identified with contrastive learning</h3>
+				<h3>Xander Byrne, Romain A. Meyer, Emanuele Paolo Farina, Eduardo Ba&ntilde;ados, Fabian Walter, Roberto Decarli, Silvia Belladitta and Federica Loiacono</h6>
+				<div class="logos">
+					<a href="https://arxiv.org/abs/2403.17903">
+						<img class="logo" src="images/arxiv.png" alt="arxiv">
+					</a>
+					<!-- <a href="https://academic.oup.com/mnras/advance-article/doi/10.1093/mnras/stad3914/7480254">
+						<img class="logo" src="images/mnras.svg" alt="mnras">
+					</a>
+					<a href="https://ui.adsabs.harvard.edu/abs/2023arXiv231211133B/abstract">
+						<img class="logo" src="images/ads.png" alt="ads">
+					</a> -->
+				</div><br>
+				<ul class="notestree" style="text-align: left; line-height: 2.3rem"><li class="bough"><span class="caret">Abstract</span>
+					<ul class="nested"><li class="notepdf">
+						Of the hundreds of \(z\gtrsim 6\) quasars discovered to date, only one is known to be gravitationally lensed, despite the high lensing optical depth expected at \(z\gtrsim6\).
+						High-redshift quasars are typically identified in large-scale surveys by applying strict photometric selection criteria, in particular, by imposing non-detections in bands blueward of the Lyman-\(\alpha\) line.
+						Such procedures by design prohibit the discovery of lensed quasars, as the lensing foreground galaxy would contaminate the photometry of the quasar.
+						We present a novel quasar selection methodology, applying contrastive learning (an unsupervised machine learning technique) to Dark Energy Survey imaging data.
+						We describe the use of this technique to train a neural network which isolates an 'island' of 11 sources, of which 7 are known \(z\sim6\) quasars.
+						Of the remaining four, three are newly discovered quasars (J0109-5424, \(z=6.07\); J0122-4609, \(z=5.99\); J0603-3923, \(z=5.94\)), as confirmed by follow-up Gemini-South/GMOS and archival NTT/EFOSC2 spectroscopy, implying a 91 per cent efficiency for our novel selection method; the final object on the island is a brown dwarf.
+						In one case (J0109-5424), emission below the Lyman limit unambiguously indicates the presence of a foreground source, though high-resolution optical/near-infrared imaging is still needed to confirm the quasar's lensed (multiply-imaged) nature.
+						Detection in the g band has led this quasar to escape selection by traditional colour cuts.
+						Our findings demonstrate that machine learning techniques can thus play a key role in unveiling populations of quasars missed by traditional methods.
+					</li></ul>
+				</li></ul>
+
+
+   			</div>   			
+
 
    			<div class="intro-info">
 
 				<h1>Atmospheres as a Window to Rocky Exoplanet Surfaces</h3>
-				<h3>Xander Byrne, Oliver Shorttle, Sean Jordan, Paul Rimmer</h6>
+				<h3>Xander Byrne, Oliver Shorttle, Sean Jordan and Paul Rimmer</h6>
 				<div class="logos">
 					<a href="https://arxiv.org/abs/2312.11133">
 						<img class="logo" src="images/arxiv.png" alt="arxiv">
@@ -140,9 +176,6 @@
 				</li></ul>
 
 
-
-
-   				
    			</div>   			
 
    		</div>   		
