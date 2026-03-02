@@ -6,15 +6,6 @@
 
 (function ($) {
 
-    skel.breakpoints({
-        xlarge: '(max-width: 1680px)',
-        large: '(max-width: 1280px)',
-        medium: '(max-width: 980px)',
-        small: '(max-width: 736px)',
-        xsmall: '(max-width: 480px)',
-        xxsmall: '(max-width: 360px)'
-    });
-
     $(function () {
 
         var $window = $(window),
@@ -29,55 +20,6 @@
                 $body.removeClass('is-loading');
             }, 100);
         });
-
-        // Prioritize "important" elements on medium.
-        skel.on('+medium -medium', function () {
-            $.prioritize(
-                '.important\\28 medium\\29',
-                skel.breakpoint('medium').active
-            );
-        });
-
-        // Object fit workaround.
-        if (!skel.canUse('object-fit'))
-            (function () {
-
-                $('.banner .image, .spotlight .image').each(function () {
-
-                    var $this = $(this),
-                        $img = $this.children('img'),
-                        positionClass = $this.parent().attr('class').match(/image-position-([a-z]+)/);
-
-                    // Set image.
-                    $this
-                        .css('background-image', 'url("' + $img.attr('src') + '")')
-                        .css('background-repeat', 'no-repeat')
-                        .css('background-size', 'cover');
-
-                    // Set position.
-                    switch (positionClass.length > 1 ? positionClass[1] : '') {
-
-                        case 'left':
-                            $this.css('background-position', 'left');
-                            break;
-
-                        case 'right':
-                            $this.css('background-position', 'right');
-                            break;
-
-                        default:
-                        case 'center':
-                            $this.css('background-position', 'center');
-                            break;
-
-                    }
-
-                    // Hide original.
-                    $img.css('opacity', '0');
-
-                });
-
-            })();
 
         // Wrapper.
         $wrapper.children()
