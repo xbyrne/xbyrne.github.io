@@ -1905,7 +1905,6 @@ p.major {
     font-size: 1.25rem;
 }
 
-h1,
 h2,
 h3,
 h4,
@@ -1931,6 +1930,7 @@ h1 {
     font-size: 3.5rem;
     line-height: 1.2;
     font-weight: bold;
+    margin 0 0 1rem 0;
 }
 
 h2 {
