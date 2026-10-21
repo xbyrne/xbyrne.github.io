@@ -3743,3 +3743,124 @@ body.is-loading .banner.onload-image-fade-in .image img {
 #wrapper.divided>.invert:first-child {
     box-shadow: none !important;
 }
+
+/* Blog */
+
+.blog-intro {
+    width: 34rem;
+    max-width: 100%;
+}
+
+.blog-page-image {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
+}
+
+.blog-page-image-empty {
+    border: 0;
+    box-shadow: none;
+    background: transparent;
+}
+
+.blog-archive {
+    padding: 0 7rem 5rem 7rem;
+    background: rgba(255, 255, 255, 0.015);
+}
+
+.blog-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-width: 60rem;
+    margin-inline: auto;
+}
+
+.blog-item {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.blog-item:hover {
+    border-color: rgba(204, 136, 255, 0.8);
+    transform: translateX(0.25rem);
+}
+
+.blog-item a {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-justify-content: space-between;
+    -webkit-justify-content: space-between;
+    -ms-justify-content: space-between;
+    justify-content: space-between;
+    gap: 1.5rem;
+    align-items: center;
+    padding: 1.5rem 0;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.blog-date {
+    color: #d7d7d7;
+    font-size: 0.9rem;
+    letter-spacing: 0.04em;
+    white-space: nowrap;
+}
+
+.blog-title {
+    font-size: 1.35rem;
+    line-height: 1.4;
+    letter-spacing: -0.04em;
+    font-weight: 300;
+    text-align: right;
+}
+
+.blog-post-content {
+    width: 40rem;
+    max-width: 100%;
+}
+
+.blog-post-date {
+    color: #CC88FF;
+    font-size: 0.8rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 980px) {
+    .blog-archive {
+        padding: 0 3rem 4rem 3rem;
+    }
+
+    .blog-item a {
+        -moz-flex-direction: column;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -moz-align-items: flex-start;
+        -webkit-align-items: flex-start;
+        -ms-align-items: flex-start;
+        align-items: flex-start;
+    }
+
+    .blog-title {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    .blog-archive {
+        padding: 0 2rem 3rem 2rem;
+    }
+
+    .blog-item a {
+        padding: 1.25rem 0;
+    }
+
+    .blog-title {
+        font-size: 1.15rem;
+    }
+}
