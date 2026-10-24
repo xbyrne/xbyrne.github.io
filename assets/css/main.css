@@ -3239,6 +3239,28 @@ body.is-loading .banner.onload-image-fade-in .image img {
     max-width: 100%;
 }
 
+.story-page {
+    padding: 7rem 7rem 5rem 7rem;
+}
+
+.story-content {
+    width: 48rem;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.story-content h1 {
+    margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 736px) {
+
+    .story-page {
+        padding: 3rem 1.5rem;
+    }
+
+}
+
 .story-list h1 {
     margin-bottom: 4rem;
 }
