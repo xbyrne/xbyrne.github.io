@@ -1930,7 +1930,7 @@ h1 {
     font-size: 3.5rem;
     line-height: 1.2;
     font-weight: bold;
-    margin 0 0 1rem 0;
+    margin: 0 0 1rem 0;
 }
 
 h2 {
@@ -2198,6 +2198,24 @@ input[type="reset"]:hover,
 input[type="button"]:hover,
 button:hover,
 .button:hover {
+    box-shadow: inset 0 0 0 1px #CC88FF;
+    color: #CC88FF !important;
+}
+
+input[type="submit"].secret,
+input[type="reset"].secret,
+input[type="button"].secret,
+button.secret,
+.button.secret {
+    box-shadow: inset 0 0 0 1px #000000;
+    color: #000000 !important;
+}
+
+input[type="submit"].secret:hover,
+input[type="reset"].secret:hover,
+input[type="button"].secret:hover,
+button.secret:hover,
+.button.secret:hover {
     box-shadow: inset 0 0 0 1px #CC88FF;
     color: #CC88FF !important;
 }
@@ -3219,6 +3237,27 @@ body.is-loading .banner.onload-image-fade-in .image img {
 .banner.style3 .content {
     width: 31.5rem;
     max-width: 100%;
+}
+
+.story-list h1 {
+    margin-bottom: 4rem;
+}
+
+.story-list .button.big {
+    font-size: 1rem;
+}
+
+.story-list .story:first-of-type .button {
+    width: 24rem;
+    max-width: 100%;
+}
+
+.story-list .story>p:first-child {
+    margin-bottom: 0.25rem;
+}
+
+.story-list .story>p:last-child {
+    margin-bottom: 2.5rem;
 }
 
 .banner.style3 .image {
