@@ -27,4 +27,16 @@
     <loc>https://xbyrne.github.io/notes/cdt</loc>
     <priority>0.4</priority>
   </url>
+  <url>
+    <loc>https://xbyrne.github.io/shortstories</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xbyrne.github.io/shortstories/plutonium</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xbyrne.github.io/shortstories/haustorium</loc>
+    <priority>0.7</priority>
+  </url>
 </urlset>
