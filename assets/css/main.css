@@ -3276,6 +3276,7 @@ body.is-loading .banner.onload-image-fade-in .image img {
 
 .story-list .story>p:first-child {
     margin-bottom: 0.25rem;
+    text-align: center;
 }
 
 .story-list .story>p:last-child {
